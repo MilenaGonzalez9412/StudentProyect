@@ -4,7 +4,8 @@ import PropTypes from "prop-types";
 export default function Students({ students }) {
   console.log(students);
   return (
-    <div className="col-md-5 order-md-2 mb-4">
+    <div className="">
+  <hr/>
       <h6>Listado</h6>
       <table className="table table-bordered">
         <thead>

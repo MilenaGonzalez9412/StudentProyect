@@ -11,6 +11,9 @@ export default function SearchStudent({getStudent}) {
 
   return (
     <div className="col">
+     <h4 className="d-flex justify-content-between align-items-center mb-3">
+          <span className="text-muted">Nombre Estudiante API</span>
+        </h4>
       <div className="input-group mb-3">
         <input
         ref={studentIDRef}

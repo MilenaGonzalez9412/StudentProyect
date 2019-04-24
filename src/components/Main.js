@@ -75,6 +75,7 @@ class Main extends Component {
             <StudentName name={this.state.studentNameAPI} />
           </div>
         </div>
+        <hr/>
         <div className="row">
           <div className="col-6">
             <Registry
